@@ -1,0 +1,32 @@
+{
+  "configurations" : [
+    {
+      "id" : "0123D765-D42E-4D64-986E-6112EDFC7904",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:",
+          "identifier" : "FDAKeychain",
+          "name" : "FDAKeychain"
+        }
+      ]
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:",
+        "identifier" : "FDAKeychainTests",
+        "name" : "FDAKeychainTests"
+      }
+    }
+  ],
+  "version" : 1
+}
