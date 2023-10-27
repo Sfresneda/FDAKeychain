@@ -9,7 +9,7 @@ https://github.com/Sfresneda/FDAKeychain
 ```
 
 ## Usage
-```
+```swift
 import FDAKeychain
 
 let keychain = FDAKeychain()
